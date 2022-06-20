@@ -1,0 +1,29 @@
+.ac-resources {
+  padding: 20px;
+}
+
+.ac-resources h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.ac-resources .ac-pbs-actions-wrapper > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.ac-resources .ac-pbs-actions-wrapper .pb-with-action {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ac-resources .ac-pbs-actions-wrapper .pb-with-action .ac-action {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0500ff;
+  border-radius: 5px;
+  padding: 6.5px 0;
+  width: 15%;
+}

@@ -1,0 +1,56 @@
+.slider-wrapper {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.slider-wrapper .s-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.slider-wrapper .s-header .s-h-actions {
+  display: flex;
+}
+
+.slider-wrapper .s-header .s-h-actions > div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-wrapper .s-header .s-h-actions > div img {
+  margin-right: 6px;
+}
+
+.slider-wrapper .s-header .s-h-actions .add-assets {
+  margin-right: 35px;
+}
+
+.slider-wrapper .s-header .s-h-search {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  padding: 10px;
+  width: 30%;
+}
+
+.slider-wrapper .s-header .s-h-search input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
+.slider-wrapper .s-header .s-h-search input:focus {
+  outline: none;
+}
+.slider-wrapper .s-header .s-h-search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.slider-wrapper .slider-cards {
+  display: flex;
+}

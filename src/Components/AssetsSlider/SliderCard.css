@@ -1,0 +1,79 @@
+.slider-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 5px;
+  padding: 20px;
+  height: 100px;
+  width: 31%;
+}
+.slider-card:first-child {
+  margin-right: 3.5%;
+}
+.slider-card:nth-child(2) {
+  margin-right: 3.5%;
+}
+
+.slider-card h4 strong {
+  color: #b2b5ba;
+}
+
+.slider-card h4 i {
+  color: #4d5057;
+  margin-left: 5px;
+}
+
+.slider-card .sc-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.slider-card .sc-heading img {
+  margin-right: 8px;
+}
+
+.slider-card span.cmcx {
+  color: #ff7152;
+  margin-left: 5px;
+}
+
+.slider-card .sc-infos h4 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.slider-card .sc-infos h4.i-stake > div:first-child {
+  margin-right: 30px;
+}
+
+.slider-card .actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-card .actions > * {
+  cursor: pointer;
+}
+
+.slider-card .actions > div:not(:last-child) {
+  border: 2px solid #0500ff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 22%;
+}
+
+.slider-card .actions > div.three-dot {
+  display: flex;
+  align-items: center;
+}
+
+.slider-card .actions img {
+  display: block;
+  height: 70%;
+}

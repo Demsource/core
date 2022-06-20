@@ -1,0 +1,65 @@
+.ac-progress-bar {
+  width: 80%;
+}
+
+.ac-progress-bar .pb-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ac-progress-bar .pb-info .pbi-proportion {
+  color: #0500ff;
+  font-weight: bold;
+}
+
+.ac-progress-bar .pb-info .pbi-desc {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ac-progress-bar .pb-info .pbi-desc img {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ac-progress-bar .pb-info .pbi-desc h5 {
+  opacity: 0.8;
+}
+
+.ac-progress-bar .pb-info .pbi-desc .desc-text {
+  position: absolute;
+  background: #0a0f18;
+  border-radius: 5px;
+  border: 1px solid #161b24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 255px;
+  bottom: 30px;
+  right: -76.5px;
+  z-index: 9;
+}
+.ac-progress-bar .pb-info .pbi-desc .desc-text .dt-figure {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #0a0f18;
+  bottom: -10px;
+  left: calc(50% - 5px);
+}
+
+.ac-progress-bar .pb {
+  background: #191e27;
+  border-radius: 5px;
+  margin-top: 8px;
+  height: 6px;
+  width: 100%;
+}
+
+.ac-progress-bar .pb-fill {
+  background-color: #0500ff;
+  border-radius: 5px;
+  height: 6px;
+  z-index: 10;
+}

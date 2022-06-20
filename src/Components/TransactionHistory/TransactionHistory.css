@@ -1,0 +1,54 @@
+.transaction-history {
+  position: relative;
+  border: 1px solid #111826;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+
+.transaction-history .t-h-header {
+  color: #627eea;
+  display: flex;
+  padding: 20px;
+}
+
+.transaction-history .t-h-header > div:not(:last-child) {
+  margin-right: 5%;
+}
+
+.t-h-col-1 {
+  width: 7.5%;
+}
+
+.t-h-col-2 {
+  width: 15%;
+}
+
+.t-h-col-3 {
+  width: 15%;
+}
+
+.t-h-col-4 {
+  width: 20%;
+}
+
+.t-h-col-5 {
+  width: 8.75%;
+}
+
+.t-h-col-6 {
+  text-align: end;
+  width: 8.75%;
+}
+
+.transaction-history .t-h-body {
+  color: #fff;
+}
+
+.transaction-history .t-h-body > div:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+}
+
+.transaction-history .t-h-body > div:nth-child(even) {
+  padding: 20px;
+}

@@ -1,0 +1,19 @@
+.transaction-history .t-h-body .t-h-data {
+  display: flex;
+}
+
+.transaction-history .t-h-body .t-h-data > div:not(:last-child) {
+  margin-right: 5%;
+}
+
+.transaction-history .t-h-body .t-h-data .t-h-col-1 {
+  color: #0500ff;
+}
+
+.transaction-history .t-h-body .t-h-data .t-h-col-4 span {
+  color: #ff7152;
+}
+
+.transaction-history .t-h-body .t-h-data .t-h-col-5.col-success {
+  color: #66bb6a;
+}

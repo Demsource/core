@@ -1,0 +1,37 @@
+ul.search-filters-options {
+  position: absolute;
+  top: 150%;
+  right: -10%;
+  background: #0a0f18;
+  width: 160px;
+  height: 195px;
+  overflow-y: scroll;
+  z-index: 999;
+}
+
+ul.search-filters-options::-webkit-scrollbar {
+  width: 5px;
+}
+ul.search-filters-options::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+ul.search-filters-options::-webkit-scrollbar-thumb {
+  background-color: #0500ff;
+  border-radius: 10px;
+}
+
+ul.search-filters-options li {
+  color: #969ba6;
+  margin: 10px;
+  padding: 10px 10px;
+}
+
+ul.search-filters-options li:hover {
+  background: #141921;
+  color: #fff;
+  border-radius: 4px;
+}
+
+ul.search-filters-options li.active-filter {
+  color: #0500ff;
+}

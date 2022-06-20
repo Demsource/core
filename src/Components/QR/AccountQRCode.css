@@ -1,0 +1,18 @@
+.account-qr-code {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 15px 0 30px 0;
+}
+
+.account-qr-code > img {
+  cursor: pointer;
+}
+
+.account-qr-code img.clipboard {
+  margin-left: 10px;
+}
+
+.account-qr-code img.qr-icon {
+  margin-left: 25px;
+}

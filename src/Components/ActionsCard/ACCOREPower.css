@@ -1,0 +1,56 @@
+.ac-core-power {
+  padding: 20px;
+}
+
+.ac-core-power h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ac-core-power h4 {
+  font-weight: bold;
+  color: #b2b5ba;
+  margin-bottom: 20px;
+}
+
+.ac-core-power h4 span {
+  color: #fff;
+}
+
+.ac-core-power h4 strong {
+  color: #ff7152;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper {
+  margin-bottom: 30px;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper .pb-wrap {
+  width: 100%;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper .pb-wrap .ac-progress-bar {
+  width: 100% !important;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper .ac-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper .ac-actions .ac-action {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0500ff;
+  border-radius: 5px;
+  padding: 6.5px 0;
+  width: 30%;
+}
+
+.ac-core-power .ac-pbs-actions-wrapper .ac-actions .ac-action.aca-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

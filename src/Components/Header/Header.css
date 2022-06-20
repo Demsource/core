@@ -1,0 +1,87 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 40px 0 30px 0;
+  width: 80%;
+}
+
+header .h-left,
+header .h-right {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header .h-left #logo {
+  position: absolute;
+  left: -104px;
+}
+
+header .h-left nav {
+  margin-left: 10px;
+}
+
+header .h-left nav ul li {
+  color: #969ba6;
+  margin-right: 20px;
+}
+header .h-left nav ul li.active-page {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 40px;
+}
+header .h-left nav ul li a:hover {
+  color: #fff;
+}
+
+header .h-right {
+  position: relative;
+  right: -80px;
+  color: #fff;
+}
+
+header .h-right ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+header .h-right li img {
+  margin-right: 10px;
+}
+
+header .h-right li.balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .h-right li.balance div span {
+  margin-right: 5px;
+}
+
+header .h-right li.language {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .h-right li.settings {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+header .h-right li.connect {
+  cursor: pointer;
+  display: flex;
+  background: #ff7152;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+}

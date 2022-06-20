@@ -1,0 +1,8 @@
+.dashboard .action-cards {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

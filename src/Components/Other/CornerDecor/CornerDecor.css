@@ -1,0 +1,89 @@
+.decor-box {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.db-top-left {
+  left: -1px;
+  top: -1px;
+}
+.db-top-left .db-tl-top {
+  position: absolute;
+  background: linear-gradient(90deg, #7060ce 0%, rgba(112, 97, 207, 0) 100%);
+  width: 25px;
+  height: 1px;
+  top: 0;
+  left: 0;
+}
+.db-top-left .db-tl-left {
+  position: absolute;
+  background: linear-gradient(180deg, #7060ce 0%, rgba(112, 97, 207, 0) 100%);
+  width: 1px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.db-top-right {
+  right: -1px;
+  top: -1px;
+}
+.db-top-right .db-tr-top {
+  position: absolute;
+  background: linear-gradient(90deg, rgba(112, 97, 207, 0) 0%, #7060ce 100%);
+  width: 25px;
+  height: 1px;
+  top: 0;
+  right: 0;
+}
+.db-top-right .db-tr-right {
+  position: absolute;
+  background: linear-gradient(180deg, #7060ce 0%, rgba(112, 97, 207, 0) 100%);
+  width: 1px;
+  height: 25px;
+  top: 0;
+  right: 0;
+}
+
+.db-bottom-left {
+  left: -1px;
+  bottom: -1px;
+}
+.db-bottom-left .db-bl-bottom {
+  position: absolute;
+  background: linear-gradient(90deg, #7060ce 0%, rgba(112, 97, 207, 0) 100%);
+  width: 25px;
+  height: 1px;
+  bottom: 0;
+  right: -1px;
+}
+.db-bottom-left .db-bl-left {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(112, 97, 207, 0) 0%, #7060ce 100%);
+  width: 1px;
+  height: 25px;
+  top: -1px;
+  left: 0;
+}
+
+.db-bottom-right {
+  right: -1px;
+  bottom: -1px;
+}
+.db-bottom-right .db-br-bottom {
+  position: absolute;
+  background: linear-gradient(90deg, rgba(112, 97, 207, 0) 0%, #7060ce 100%);
+  width: 25px;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+}
+.db-bottom-right .db-br-right {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(112, 97, 207, 0) 0%, #7060ce 100%);
+  width: 1px;
+  height: 25px;
+  top: -1px;
+  right: 0;
+}
