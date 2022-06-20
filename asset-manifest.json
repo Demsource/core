@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/core/static/css/main.b99f451f.css",
+    "main.js": "/core/static/js/main.50090c02.js",
+    "static/media/card-avatar-3.svg": "/core/static/media/card-avatar-3.e3ed9b22727ccbd09f35cdc7470949ac.svg",
+    "static/media/card-avatar-2.svg": "/core/static/media/card-avatar-2.0d2778a4ae71b2de8fdc169419365ebb.svg",
+    "static/media/logo-grey.svg": "/core/static/media/logo-grey.33ec33ba2a7e69d9af099a437c021ed0.svg",
+    "static/media/logo.svg": "/core/static/media/logo.91c6d9f3d76199f241336a8f4d67eb21.svg",
+    "static/media/settings.svg": "/core/static/media/settings.a7d7cb3667b39e9bfe6e62a578f75502.svg",
+    "static/media/qr.svg": "/core/static/media/qr.b8ae56df280c5031fe54b0c6e9385f13.svg",
+    "static/media/globe.svg": "/core/static/media/globe.c68a511850a4c286a3362c35ec12f02d.svg",
+    "static/media/logo-black.svg": "/core/static/media/logo-black.832ba32b5b538a116302f155a14faed8.svg",
+    "static/media/card-avatar-1.svg": "/core/static/media/card-avatar-1.772b2e133c6df677ecb11108558b9c7a.svg",
+    "static/media/info.svg": "/core/static/media/info.e7ac51ac14317d726b60f2cca38765eb.svg",
+    "static/media/soc-github.svg": "/core/static/media/soc-github.f5cc2b7fe7abd68cbf86ae1137d330ba.svg",
+    "static/media/soc-twitter.svg": "/core/static/media/soc-twitter.752ee5d09e73f44c7cb657e3be5cb3df.svg",
+    "static/media/clipboard.svg": "/core/static/media/clipboard.622c8c279b099429a598e9e9ce00c948.svg",
+    "static/media/close-popup.svg": "/core/static/media/close-popup.e8df03aa9e78dae235b6c9d4fb0e9a72.svg",
+    "static/media/add.svg": "/core/static/media/add.0fed5155ed9dbb9efccd13a371a45dd8.svg",
+    "static/media/soc-linked-in.svg": "/core/static/media/soc-linked-in.8c885f08045ee3583bd7d911dfa3e1d4.svg",
+    "static/media/search.svg": "/core/static/media/search.179401b551a5f294dc7aa7f3ed7e55fb.svg",
+    "static/media/scroll-up.svg": "/core/static/media/scroll-up.ea4ed3b6a72b71bb56e31afd8a13c119.svg",
+    "static/media/soc-facebook.svg": "/core/static/media/soc-facebook.17a6011b090a67301f73788f20b90964.svg",
+    "index.html": "/core/index.html",
+    "static/media/arrow-down.svg": "/core/static/media/arrow-down.faef7e431bb7f461c57156efb2570e85.svg",
+    "static/media/three-dots.svg": "/core/static/media/three-dots.47ea22dc7e650a988937180dd074958f.svg",
+    "static/media/toggle-on.svg": "/core/static/media/toggle-on.828b2132e406a4d84a0d20596ce1d219.svg",
+    "static/media/toggle-off.svg": "/core/static/media/toggle-off.0e1c8a24130bd333347bbbd546cb87e4.svg",
+    "main.b99f451f.css.map": "/core/static/css/main.b99f451f.css.map",
+    "main.50090c02.js.map": "/core/static/js/main.50090c02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99f451f.css",
+    "static/js/main.50090c02.js"
+  ]
+}
